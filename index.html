@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wakasa Imaushi</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      background: #141414;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Inter', sans-serif;
+      padding: 2rem;
+    }
+
+    .card {
+      background: #1f1f1f;
+      border-radius: 16px;
+      padding: 3rem 2rem 2.5rem;
+      width: 100%;
+      max-width: 360px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .avatar {
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .location {
+      color: #c5f135;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    .bio {
+      color: #e0e0e0;
+      font-size: 0.9rem;
+      text-align: center;
+      line-height: 1.6;
+      margin: 0.75rem 0 1.25rem;
+    }
+
+    .links {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .links a {
+      display: block;
+      background: #333;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 10px;
+      padding: 1rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      transition: background 0.15s;
+    }
+
+    .links a:hover { background: #3f3f3f; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="avatar" src="Wakasa91.jpg" alt="Jessica Randall" />
+    <h1>Wakasa Imaushi</h1>
+    <p class="location">Kathmandu, Nepal</p>
+    <p class="bio">"Front-end developer."</p>
+    <div class="links">
+      <a href="#">GitHub</a>
+      <a href="#">Frontend Mentor</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </div>
+</body>
+</html>
